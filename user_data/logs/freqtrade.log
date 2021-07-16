@@ -1,0 +1,1595 @@
+2021-02-19 14:06:42,192 - VolumePairList - INFO - Searching 200 pairs: ['BNB/BTC', 'ADA/BTC', 'DOGE/BTC', 'SXP/BTC', 'DOT/BTC', 'XRP/BTC', 'LTC/BTC', 'BCH/BTC', 'DASH/BTC', 'EOS/BTC', 'CHZ/BTC', 'RVN/BTC', 'TRX/BTC', 'XVS/BTC', 'IOTA/BTC', 'BNT/BTC', 'DODO/BTC', 'REEF/BTC', 'IOST/BTC', 'REN/BTC', 'ATOM/BTC', 'GLM/BTC', 'ICX/BTC', 'VET/BTC', 'GRT/BTC', 'SKY/BTC', 'AAVE/BTC', 'XMR/BTC', 'FET/BTC', 'XEM/BTC', 'POLY/BTC', 'FTT/BTC', 'SAND/BTC', 'XTZ/BTC', 'XLM/BTC', 'MATIC/BTC', 'CAKE/BTC', 'FXS/BTC', 'ZEC/BTC', 'BQX/BTC', 'LUNA/BTC', 'SUSHI/BTC', 'NEO/BTC', 'ALGO/BTC', 'SOL/BTC', 'UNI/BTC', 'EGLD/BTC', 'WBTC/BTC', 'YFI/BTC', 'LOOM/BTC', 'AVAX/BTC', 'CELO/BTC', 'AION/BTC', 'TFUEL/BTC', 'BAND/BTC', 'NANO/BTC', 'ONT/BTC', 'QTUM/BTC', 'BAT/BTC', 'SNX/BTC', 'FTM/BTC', 'SFP/BTC', 'ELF/BTC', 'FIL/BTC', 'OMG/BTC', 'THETA/BTC', 'LIT/BTC', '1INCH/BTC', 'KSM/BTC', 'LTO/BTC', 'COTI/BTC', 'UNFI/BTC', 'ENJ/BTC', 'ZIL/BTC', 'ETC/BTC', 'ALPHA/BTC', 'RUNE/BTC', 'KNC/BTC', 'WPR/BTC', 'HBAR/BTC', 'RSR/BTC', 'SRM/BTC', 'ONE/BTC', 'KAVA/BTC', 'ZRX/BTC', 'WAVES/BTC', 'HARD/BTC', 'DIA/BTC', 'MANA/BTC', 'INJ/BTC', 'WABI/BTC', 'UTK/BTC', 'CVC/BTC', 'OCEAN/BTC', 'LSK/BTC', 'JST/BTC', 'ANKR/BTC', 'ARK/BTC', 'DGB/BTC', 'TWT/BTC', 'STX/BTC', 'TOMO/BTC', 'ZEN/BTC', 'CRV/BTC', 'CELR/BTC', 'DUSK/BTC', 'STPT/BTC', 'GAS/BTC', 'DCR/BTC', 'ROSE/BTC', 'SC/BTC', 'MDA/BTC', 'GXS/BTC', 'COMP/BTC', 'AGI/BTC', 'POWR/BTC', 'NEAR/BTC', 'RLC/BTC', 'YFII/BTC', 'LRC/BTC', 'AUDIO/BTC', 'AST/BTC', 'SCRT/BTC', 'MTL/BTC', 'MDT/BTC', 'VIDT/BTC', 'IOTX/BTC', 'RIF/BTC', 'STORJ/BTC', 'SKL/BTC', 'ARPA/BTC', 'STEEM/BTC', 'GRS/BTC', 'WRX/BTC', 'BEL/BTC', 'AKRO/BTC', 'OXT/BTC', 'CTK/BTC', 'BLZ/BTC', 'BTG/BTC', 'DNT/BTC', 'BAL/BTC', 'SYS/BTC', 'REP/BTC', 'OGN/BTC', 'IRIS/BTC', 'KMD/BTC', 'WAN/BTC', 'FLM/BTC', 'REQ/BTC', 'BZRX/BTC', 'PNT/BTC', 'TRU/BTC', 'ADX/BTC', 'BTS/BTC', 'ORN/BTC', 'MKR/BTC', 'BTCST/BTC', 'CTSI/BTC', 'CHR/BTC', 'AXS/BTC', 'VIB/BTC', 'WTC/BTC', 'DATA/BTC', 'TRB/BTC', 'IDEX/BTC', 'AVA/BTC', 'NMR/BTC', 'FOR/BTC', 'BCD/BTC', 'GVT/BTC', 'FUN/BTC', 'ARDR/BTC', 'FRONT/BTC', 'UMA/BTC', 'EASY/BTC', 'STRAX/BTC', 'STMX/BTC', 'NKN/BTC', 'FIO/BTC', 'HIVE/BTC', 'PIVX/BTC', 'DLT/BTC', 'NAS/BTC', 'PERL/BTC', 'BEAM/BTC', 'SUN/BTC', 'SNT/BTC', 'AERGO/BTC', 'RDN/BTC', 'ONG/BTC', 'CKB/BTC', 'DREP/BTC', 'YOYOW/BTC', 'COS/BTC', 'WING/BTC', 'DOCK/BTC', 'HNT/BTC', 'BRD/BTC', 'WNXM/BTC']
+2021-02-19 14:06:43,062 - freqtrade.data.converter - INFO - Missing data fillup for WNXM/BTC: before: 999 - after: 1000
+2021-02-19 14:06:43,335 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:06:43,339 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:06:46,646 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:06:47,179 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:06:47,180 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:06:50,902 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:06:51,426 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:06:51,426 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:06:55,732 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:06:56,276 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:06:56,277 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:00,685 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:01,221 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:01,222 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:06,095 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:06,629 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:06,630 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:07,654 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='RUNNING'
+2021-02-19 14:07:11,985 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:12,546 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:12,547 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:17,115 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:17,437 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:17,437 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:17,805 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:07:17,805 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:07:19,055 - VolumePairList - INFO - Searching 200 pairs: ['BNB/BTC', 'ADA/BTC', 'DOGE/BTC', 'SXP/BTC', 'DOT/BTC', 'XRP/BTC', 'LTC/BTC', 'BCH/BTC', 'DASH/BTC', 'EOS/BTC', 'CHZ/BTC', 'RVN/BTC', 'TRX/BTC', 'XVS/BTC', 'IOTA/BTC', 'DODO/BTC', 'BNT/BTC', 'REEF/BTC', 'IOST/BTC', 'REN/BTC', 'ATOM/BTC', 'GLM/BTC', 'ICX/BTC', 'VET/BTC', 'GRT/BTC', 'XMR/BTC', 'AAVE/BTC', 'SKY/BTC', 'CAKE/BTC', 'FTT/BTC', 'XEM/BTC', 'SAND/BTC', 'POLY/BTC', 'XTZ/BTC', 'FET/BTC', 'SOL/BTC', 'XLM/BTC', 'FXS/BTC', 'MATIC/BTC', 'SUSHI/BTC', 'ZEC/BTC', 'BQX/BTC', 'LUNA/BTC', 'NEO/BTC', 'ALGO/BTC', 'EGLD/BTC', 'UNI/BTC', 'WBTC/BTC', 'YFI/BTC', 'LOOM/BTC', 'CELO/BTC', 'AVAX/BTC', 'AION/BTC', 'TFUEL/BTC', 'BAND/BTC', 'ONT/BTC', 'NANO/BTC', 'BAT/BTC', 'QTUM/BTC', 'SNX/BTC', 'ELF/BTC', 'SFP/BTC', 'FTM/BTC', 'FIL/BTC', 'OMG/BTC', 'THETA/BTC', '1INCH/BTC', 'LIT/BTC', 'COTI/BTC', 'KSM/BTC', 'LTO/BTC', 'ENJ/BTC', 'UNFI/BTC', 'ZIL/BTC', 'RUNE/BTC', 'ETC/BTC', 'ALPHA/BTC', 'KNC/BTC', 'WPR/BTC', 'RSR/BTC', 'HBAR/BTC', 'KAVA/BTC', 'ONE/BTC', 'SRM/BTC', 'ZRX/BTC', 'WAVES/BTC', 'HARD/BTC', 'DIA/BTC', 'MANA/BTC', 'WABI/BTC', 'UTK/BTC', 'CVC/BTC', 'INJ/BTC', 'OCEAN/BTC', 'LSK/BTC', 'JST/BTC', 'DUSK/BTC', 'DGB/BTC', 'ANKR/BTC', 'ARK/BTC', 'TWT/BTC', 'STX/BTC', 'TOMO/BTC', 'CRV/BTC', 'ZEN/BTC', 'CELR/BTC', 'STPT/BTC', 'GAS/BTC', 'ROSE/BTC', 'SC/BTC', 'MDA/BTC', 'DCR/BTC', 'GXS/BTC', 'COMP/BTC', 'AGI/BTC', 'POWR/BTC', 'RLC/BTC', 'NEAR/BTC', 'YFII/BTC', 'AUDIO/BTC', 'LRC/BTC', 'AST/BTC', 'SCRT/BTC', 'VIDT/BTC', 'MDT/BTC', 'MTL/BTC', 'WAN/BTC', 'IOTX/BTC', 'WRX/BTC', 'STORJ/BTC', 'RIF/BTC', 'SKL/BTC', 'GRS/BTC', 'AKRO/BTC', 'ARPA/BTC', 'STEEM/BTC', 'BEL/BTC', 'OXT/BTC', 'BTG/BTC', 'CTK/BTC', 'BLZ/BTC', 'BAL/BTC', 'DNT/BTC', 'SYS/BTC', 'REP/BTC', 'OGN/BTC', 'IRIS/BTC', 'KMD/BTC', 'REQ/BTC', 'FLM/BTC', 'TRU/BTC', 'BZRX/BTC', 'ADX/BTC', 'BTS/BTC', 'PNT/BTC', 'ORN/BTC', 'MKR/BTC', 'CTSI/BTC', 'CHR/BTC', 'BTCST/BTC', 'AXS/BTC', 'VIB/BTC', 'FOR/BTC', 'WTC/BTC', 'IDEX/BTC', 'DATA/BTC', 'AVA/BTC', 'TRB/BTC', 'BCD/BTC', 'NMR/BTC', 'FRONT/BTC', 'FUN/BTC', 'GVT/BTC', 'ARDR/BTC', 'EASY/BTC', 'UMA/BTC', 'STRAX/BTC', 'NKN/BTC', 'FIO/BTC', 'HIVE/BTC', 'PIVX/BTC', 'STMX/BTC', 'NAS/BTC', 'DLT/BTC', 'BEAM/BTC', 'PERL/BTC', 'SNT/BTC', 'CKB/BTC', 'AERGO/BTC', 'ONG/BTC', 'RDN/BTC', 'SUN/BTC', 'HNT/BTC', 'DREP/BTC', 'YOYOW/BTC', 'COS/BTC', 'WING/BTC', 'DOCK/BTC', 'WNXM/BTC', 'BRD/BTC']
+2021-02-19 14:07:23,187 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:23,742 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:23,743 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:28,062 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:28,566 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:28,566 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:33,447 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:33,997 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:33,998 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:38,478 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:39,019 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:39,020 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:43,501 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:44,032 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:44,033 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:48,752 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:49,612 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:49,612 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:52,299 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:07:52,299 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:07:53,700 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:07:54,239 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:07:54,239 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:07:59,859 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:00,411 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:00,411 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:04,820 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:05,374 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:05,374 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:09,817 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:10,254 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:10,255 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:11,057 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='RUNNING'
+2021-02-19 14:08:15,729 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:16,318 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:16,319 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:20,185 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:20,747 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:20,748 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:25,563 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:26,110 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:26,111 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:26,777 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:08:26,779 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:08:30,549 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:31,095 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:31,096 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:35,660 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:36,189 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:36,190 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:41,275 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:41,838 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:41,840 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:46,408 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:46,927 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:46,927 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:51,218 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:51,832 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:51,833 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:08:55,996 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:08:56,529 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:08:56,530 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:01,449 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:01,979 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:01,979 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:09:01,980 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:01,980 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:09:06,852 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:07,421 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:07,422 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:11,877 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:12,730 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:12,730 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:13,187 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='RUNNING'
+2021-02-19 14:09:17,548 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:18,075 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:18,075 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:22,333 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:22,750 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:22,755 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:27,526 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:27,995 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:27,995 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:32,503 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:33,039 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:33,039 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:36,455 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:09:36,455 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:09:37,447 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:37,981 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:37,981 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:42,788 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:43,331 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:43,332 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:47,969 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:48,502 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:48,503 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:52,927 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:53,490 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:53,491 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:09:57,658 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:09:58,187 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:09:58,187 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:10:01,916 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 1272433706
+2021-02-19 14:10:03,095 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:10:03,633 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:10:03,633 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:10:07,828 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:10:08,361 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:10:08,361 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:10:10,923 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:10:10,925 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:10:13,002 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:10:13,670 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:10:13,671 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:10:14,290 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='RUNNING'
+2021-02-19 14:10:16,834 - freqtrade.rpc.telegram - INFO - Executing handler: _reload_config for chat_id: 1272433706
+2021-02-19 14:10:17,750 - freqtrade.freqtradebot - INFO - Executing Sell for ANKR/BTC. Reason: sell_signal
+2021-02-19 14:10:18,604 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:10:18,604 - freqtrade.freqtradebot - WARNING - Unable to sell trade ANKR/BTC: Not enough amount to sell. Trade-amount: 214.0, Wallet: 0
+2021-02-19 14:10:19,291 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'reload_config'}
+2021-02-19 14:10:19,649 - freqtrade.worker - INFO - Changing state to: RELOAD_CONFIG
+2021-02-19 14:10:19,649 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='RELOAD_CONFIG'
+2021-02-19 14:10:19,649 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2021-02-19 14:10:19,655 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': "4 open trades active.\n\nHandle these trades manually on Binance, or '/start' the bot again and use '/stopbuy' to handle open trades gracefully. \n"}
+2021-02-19 14:10:20,006 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2021-02-19 14:10:20,006 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-02-19 14:10:30,751 - freqtrade.configuration.configuration - INFO - Using config: /freqtrade/user_data/config.json ...
+2021-02-19 14:10:30,755 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-02-19 14:10:30,756 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-02-19 14:10:30,757 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-02-19 14:10:30,757 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-02-19 14:10:30,758 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2021-02-19 14:10:30,758 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 4 ...
+2021-02-19 14:10:30,759 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-02-19 14:10:30,761 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2021-02-19 14:10:30,761 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-02-19 14:10:30,762 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2021-02-19 14:10:30,762 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-02-19 14:10:30,763 - freqtrade.freqtradebot - INFO - Starting freqtrade 2021.1
+2021-02-19 14:10:30,787 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/MultiRSI.py due to 'No module named 'technical''
+2021-02-19 14:10:30,789 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/ReinforcedAverageStrategy.py due to 'No module named 'technical''
+2021-02-19 14:10:30,794 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/ReinforcedSmoothScalp.py due to 'No module named 'technical''
+2021-02-19 14:10:30,801 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/TechnicalExampleStrategy.py due to 'No module named 'technical''
+2021-02-19 14:10:30,802 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy bbrsi from '/freqtrade/user_data/strategies/strategy-01-bb-rsi.py'...
+2021-02-19 14:10:30,802 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1h.
+2021-02-19 14:10:30,802 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: BTC.
+2021-02-19 14:10:30,803 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 0.00012.
+2021-02-19 14:10:30,803 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-02-19 14:10:30,803 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-02-19 14:10:30,803 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-02-19 14:10:30,803 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-02-19 14:10:30,803 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.24141, '13': 0.0496, '51': 0.01047, '135': 0}
+2021-02-19 14:10:30,803 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1h
+2021-02-19 14:10:30,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.12515
+2021-02-19 14:10:30,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-02-19 14:10:30,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-02-19 14:10:30,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-02-19 14:10:30,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-02-19 14:10:30,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2021-02-19 14:10:30,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-02-19 14:10:30,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: BTC
+2021-02-19 14:10:30,804 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 0.00012
+2021-02-19 14:10:30,805 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2021-02-19 14:10:30,805 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-02-19 14:10:30,805 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-02-19 14:10:30,805 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-02-19 14:10:30,805 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-02-19 14:10:30,805 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-02-19 14:10:30,805 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-02-19 14:10:30,806 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-02-19 14:10:30,806 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-02-19 14:10:30,811 - freqtrade.exchange.exchange - INFO - Using CCXT 1.40.99
+2021-02-19 14:10:30,811 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-02-19 14:10:30,820 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 200}
+2021-02-19 14:10:30,832 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2021-02-19 14:10:32,719 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2021-02-19 14:10:33,075 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:10:33,118 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2021-02-19 14:10:33,119 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-02-19 14:10:33,844 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring MFT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,845 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring INS/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,845 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring LUN/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,845 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring PHX/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,845 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring ENG/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,845 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring LEND/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,846 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring SUB/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,846 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring TUSD/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,846 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring RPX/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,846 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring DAI/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,846 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring PAX/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,846 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BCN/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,846 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring SALT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,846 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring ERD/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring AE/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring KEY/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring WINGS/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring MOD/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BTT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BTCB/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring HOT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring VEN/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring COCOS/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,847 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring DGD/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BCC/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring TRIG/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BSV/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring NPXS/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring STORM/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring HSR/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring DENT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring CMT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring GNT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,848 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring XZC/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring STRAT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring ARN/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring CHAT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring POE/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring MCO/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring TNT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring MBL/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring CLOAK/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring HC/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring ICN/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring FUEL/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,849 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring EDO/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,850 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring WIN/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,850 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring NCASH/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,850 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BCPT/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,850 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring TNB/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,850 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring VIBE/BTC from whitelist. Market is not active.
+2021-02-19 14:10:33,861 - VolumePairList - INFO - Pair ETH/BTC in your blacklist. Removing it from whitelist...
+2021-02-19 14:10:33,861 - VolumePairList - INFO - Pair LINK/BTC in your blacklist. Removing it from whitelist...
+2021-02-19 14:10:33,861 - VolumePairList - INFO - Pair XVG/BTC in your blacklist. Removing it from whitelist...
+2021-02-19 14:10:33,861 - VolumePairList - INFO - Searching 200 pairs: ['BNB/BTC', 'ADA/BTC', 'DOGE/BTC', 'SXP/BTC', 'DOT/BTC', 'XRP/BTC', 'LTC/BTC', 'BCH/BTC', 'DASH/BTC', 'EOS/BTC', 'CHZ/BTC', 'RVN/BTC', 'TRX/BTC', 'XVS/BTC', 'DODO/BTC', 'IOTA/BTC', 'BNT/BTC', 'REEF/BTC', 'IOST/BTC', 'REN/BTC', 'ATOM/BTC', 'GLM/BTC', 'ICX/BTC', 'VET/BTC', 'GRT/BTC', 'XMR/BTC', 'AAVE/BTC', 'SKY/BTC', 'CAKE/BTC', 'FTT/BTC', 'XEM/BTC', 'SAND/BTC', 'POLY/BTC', 'XTZ/BTC', 'SOL/BTC', 'FET/BTC', 'XLM/BTC', 'SUSHI/BTC', 'FXS/BTC', 'MATIC/BTC', 'ZEC/BTC', 'BQX/BTC', 'LUNA/BTC', 'NEO/BTC', 'ALGO/BTC', 'EGLD/BTC', 'UNI/BTC', 'WBTC/BTC', 'YFI/BTC', 'LOOM/BTC', 'CELO/BTC', 'AVAX/BTC', 'AION/BTC', 'TFUEL/BTC', 'BAND/BTC', 'ONT/BTC', 'NANO/BTC', 'BAT/BTC', 'SNX/BTC', 'QTUM/BTC', 'ELF/BTC', 'SFP/BTC', 'FTM/BTC', 'FIL/BTC', 'OMG/BTC', 'THETA/BTC', '1INCH/BTC', 'LIT/BTC', 'COTI/BTC', 'KSM/BTC', 'LTO/BTC', 'ENJ/BTC', 'UNFI/BTC', 'ZIL/BTC', 'RUNE/BTC', 'ETC/BTC', 'ALPHA/BTC', 'KNC/BTC', 'WPR/BTC', 'RSR/BTC', 'HBAR/BTC', 'KAVA/BTC', 'SRM/BTC', 'ONE/BTC', 'ZRX/BTC', 'WAVES/BTC', 'HARD/BTC', 'DIA/BTC', 'MANA/BTC', 'WABI/BTC', 'UTK/BTC', 'CVC/BTC', 'INJ/BTC', 'OCEAN/BTC', 'LSK/BTC', 'JST/BTC', 'DUSK/BTC', 'DGB/BTC', 'ANKR/BTC', 'ARK/BTC', 'TWT/BTC', 'STX/BTC', 'TOMO/BTC', 'ZEN/BTC', 'CRV/BTC', 'CELR/BTC', 'STPT/BTC', 'GAS/BTC', 'ROSE/BTC', 'MDA/BTC', 'SC/BTC', 'DCR/BTC', 'GXS/BTC', 'COMP/BTC', 'AGI/BTC', 'POWR/BTC', 'RLC/BTC', 'NEAR/BTC', 'YFII/BTC', 'AUDIO/BTC', 'LRC/BTC', 'AST/BTC', 'SCRT/BTC', 'VIDT/BTC', 'MDT/BTC', 'MTL/BTC', 'WAN/BTC', 'IOTX/BTC', 'WRX/BTC', 'STORJ/BTC', 'RIF/BTC', 'SKL/BTC', 'GRS/BTC', 'AKRO/BTC', 'ARPA/BTC', 'STEEM/BTC', 'BEL/BTC', 'OXT/BTC', 'BTG/BTC', 'CTK/BTC', 'BLZ/BTC', 'BAL/BTC', 'DNT/BTC', 'REP/BTC', 'OGN/BTC', 'IRIS/BTC', 'SYS/BTC', 'REQ/BTC', 'KMD/BTC', 'TRU/BTC', 'FLM/BTC', 'BZRX/BTC', 'ADX/BTC', 'BTS/BTC', 'PNT/BTC', 'ORN/BTC', 'MKR/BTC', 'CTSI/BTC', 'CHR/BTC', 'AXS/BTC', 'VIB/BTC', 'BTCST/BTC', 'FOR/BTC', 'WTC/BTC', 'IDEX/BTC', 'DATA/BTC', 'AVA/BTC', 'TRB/BTC', 'BCD/BTC', 'NMR/BTC', 'FRONT/BTC', 'FUN/BTC', 'GVT/BTC', 'EASY/BTC', 'ARDR/BTC', 'UMA/BTC', 'STRAX/BTC', 'NKN/BTC', 'FIO/BTC', 'HIVE/BTC', 'PIVX/BTC', 'STMX/BTC', 'NAS/BTC', 'DLT/BTC', 'BEAM/BTC', 'PERL/BTC', 'SNT/BTC', 'CKB/BTC', 'SUN/BTC', 'AERGO/BTC', 'ONG/BTC', 'RDN/BTC', 'HNT/BTC', 'COS/BTC', 'DREP/BTC', 'YOYOW/BTC', 'WING/BTC', 'DOCK/BTC', 'WNXM/BTC', 'QKC/BTC']
+2021-02-19 14:10:34,019 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-02-19 14:10:34,020 - apscheduler.scheduler - INFO - Scheduler started
+2021-02-19 14:10:36,681 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-02-19 14:10:36,681 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'config reloaded'}
+2021-02-19 14:10:37,515 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-02-19 14:10:38,098 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-02-19 14:10:38,098 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `0.00012 BTC`\n*Minimum ROI:* `{'0': 0.24141, '13': 0.0496, '51': 0.01047, '135': 0}`\n*Stoploss:* `-0.12515`\n*Timeframe:* `1h`\n*Strategy:* `bbrsi`"}
+2021-02-19 14:10:38,463 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for BTC pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 200 volume pairs.'}]"}
+2021-02-19 14:10:38,835 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:10:38,836 - freqtrade.persistence.models - INFO - Stoploss for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52) needs adjustment...
+2021-02-19 14:10:38,836 - freqtrade.persistence.models - INFO - New stoploss: 2.082143e-06.
+2021-02-19 14:10:38,836 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=11, pair=DGB/BTC, amount=81.00000000, open_rate=0.00000147, open_since=2021-02-19 00:14:31)
+2021-02-19 14:10:38,837 - freqtrade.persistence.models - INFO - Stoploss for Trade(id=11, pair=DGB/BTC, amount=81.00000000, open_rate=0.00000147, open_since=2021-02-19 00:14:31) needs adjustment...
+2021-02-19 14:10:38,837 - freqtrade.persistence.models - INFO - New stoploss: 1.2860295e-06.
+2021-02-19 14:10:38,837 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=12, pair=ANKR/BTC, amount=214.00000000, open_rate=0.00000057, open_since=2021-02-19 00:33:41)
+2021-02-19 14:10:38,837 - freqtrade.persistence.models - INFO - Stoploss for Trade(id=12, pair=ANKR/BTC, amount=214.00000000, open_rate=0.00000057, open_since=2021-02-19 00:33:41) needs adjustment...
+2021-02-19 14:10:38,838 - freqtrade.persistence.models - INFO - New stoploss: 4.986645e-07.
+2021-02-19 14:10:38,838 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=15, pair=DOGE/BTC, amount=109.00000000, open_rate=0.00000110, open_since=2021-02-19 07:39:31)
+2021-02-19 14:10:38,838 - freqtrade.persistence.models - INFO - Stoploss for Trade(id=15, pair=DOGE/BTC, amount=109.00000000, open_rate=0.00000110, open_since=2021-02-19 07:39:31) needs adjustment...
+2021-02-19 14:10:38,838 - freqtrade.persistence.models - INFO - New stoploss: 9.62335e-07.
+2021-02-19 14:10:38,949 - freqtrade.freqtradebot - INFO - Updating 0 open orders.
+2021-02-19 14:10:45,876 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:10:45,877 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:10:50,970 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 1272433706
+2021-02-19 14:11:07,041 - freqtrade.rpc.telegram - INFO - Executing handler: _forcesell for chat_id: 1272433706
+2021-02-19 14:11:07,461 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:11:08,143 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 10, 'exchange': 'Binance', 'pair': 'MATIC/BTC', 'gain': 'loss', 'limit': 2.32e-06, 'order_type': 'limit', 'amount': 50.0, 'open_rate': 2.38e-06, 'current_rate': 2.32e-06, 'profit_amount': -3.18e-06, 'profit_ratio': -0.02667538, 'sell_reason': 'force_sell', 'open_date': datetime.datetime(2021, 2, 19, 0, 0, 52, 434668), 'close_date': datetime.datetime(2021, 2, 19, 14, 11, 8, 143568), 'stake_currency': 'BTC', 'fiat_currency': 'BRL'}
+2021-02-19 14:11:09,735 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:11:09,735 - freqtrade.rpc.telegram - ERROR - Exception occurred within Telegram module
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/rpc/telegram.py", line 58, in wrapper
+    return command_handler(self, *args, **kwargs)
+  File "/freqtrade/freqtrade/rpc/telegram.py", line 584, in _forcesell
+    msg = self._rpc._rpc_forcesell(trade_id)
+  File "/freqtrade/freqtrade/rpc/rpc.py", line 549, in _rpc_forcesell
+    _exec_forcesell(trade)
+  File "/freqtrade/freqtrade/rpc/rpc.py", line 539, in _exec_forcesell
+    self._freqtrade.execute_sell(trade, current_rate, SellType.FORCE_SELL)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 1264, in execute_sell
+    amount = self._safe_sell_amount(trade.pair, trade.amount)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 1231, in _safe_sell_amount
+    raise DependencyException(
+freqtrade.exceptions.DependencyException: Not enough amount to sell. Trade-amount: 81.0, Wallet: 0
+2021-02-19 14:11:19,406 - freqtrade.data.converter - INFO - Missing data fillup for BCD/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,446 - freqtrade.data.converter - INFO - Missing data fillup for DOT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,489 - freqtrade.data.converter - INFO - Missing data fillup for LOOM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,528 - freqtrade.data.converter - INFO - Missing data fillup for LIT/BTC: before: 367 - after: 368
+2021-02-19 14:11:19,569 - freqtrade.data.converter - INFO - Missing data fillup for IRIS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,604 - freqtrade.data.converter - INFO - Missing data fillup for WPR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,637 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,664 - freqtrade.data.converter - INFO - Missing data fillup for YFI/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,693 - freqtrade.data.converter - INFO - Missing data fillup for CHZ/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,720 - freqtrade.data.converter - INFO - Missing data fillup for NANO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,750 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,778 - freqtrade.data.converter - INFO - Missing data fillup for BNT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,807 - freqtrade.data.converter - INFO - Missing data fillup for RSR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,840 - freqtrade.data.converter - INFO - Missing data fillup for COS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,874 - freqtrade.data.converter - INFO - Missing data fillup for HNT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,904 - freqtrade.data.converter - INFO - Missing data fillup for UNI/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,940 - freqtrade.data.converter - INFO - Missing data fillup for SNX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:19,970 - freqtrade.data.converter - INFO - Missing data fillup for 1INCH/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,000 - freqtrade.data.converter - INFO - Missing data fillup for ENJ/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,035 - freqtrade.data.converter - INFO - Missing data fillup for WAVES/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,069 - freqtrade.data.converter - INFO - Missing data fillup for SCRT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,106 - freqtrade.data.converter - INFO - Missing data fillup for GAS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,139 - freqtrade.data.converter - INFO - Missing data fillup for SOL/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,170 - freqtrade.data.converter - INFO - Missing data fillup for HBAR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,203 - freqtrade.data.converter - INFO - Missing data fillup for CTK/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,235 - freqtrade.data.converter - INFO - Missing data fillup for FUN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,268 - freqtrade.data.converter - INFO - Missing data fillup for FOR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,299 - freqtrade.data.converter - INFO - Missing data fillup for XEM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,332 - freqtrade.data.converter - INFO - Missing data fillup for KMD/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,366 - freqtrade.data.converter - INFO - Missing data fillup for HIVE/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,381 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:11:20,383 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:11:20,400 - freqtrade.data.converter - INFO - Missing data fillup for REN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,433 - freqtrade.data.converter - INFO - Missing data fillup for CHR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,463 - freqtrade.data.converter - INFO - Missing data fillup for SC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,494 - freqtrade.data.converter - INFO - Missing data fillup for DOGE/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,530 - freqtrade.data.converter - INFO - Missing data fillup for ORN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,565 - freqtrade.data.converter - INFO - Missing data fillup for VET/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,596 - freqtrade.data.converter - INFO - Missing data fillup for ARK/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,629 - freqtrade.data.converter - INFO - Missing data fillup for ANKR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,656 - freqtrade.data.converter - INFO - Missing data fillup for SXP/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,693 - freqtrade.data.converter - INFO - Missing data fillup for AUDIO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,720 - freqtrade.data.converter - INFO - Missing data fillup for KAVA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,750 - freqtrade.data.converter - INFO - Missing data fillup for AVA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,779 - freqtrade.data.converter - INFO - Missing data fillup for CVC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,808 - freqtrade.data.converter - INFO - Missing data fillup for GLM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,839 - freqtrade.data.converter - INFO - Missing data fillup for BEL/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,864 - freqtrade.data.converter - INFO - Missing data fillup for TRU/BTC: before: 750 - after: 751
+2021-02-19 14:11:20,888 - freqtrade.data.converter - INFO - Missing data fillup for TFUEL/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,909 - freqtrade.data.converter - INFO - Missing data fillup for IOST/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,933 - freqtrade.data.converter - INFO - Missing data fillup for XVS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,957 - freqtrade.data.converter - INFO - Missing data fillup for STPT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:20,979 - freqtrade.data.converter - INFO - Missing data fillup for PIVX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,002 - freqtrade.data.converter - INFO - Missing data fillup for NAS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,026 - freqtrade.data.converter - INFO - Missing data fillup for ADA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,052 - freqtrade.data.converter - INFO - Missing data fillup for MDA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,071 - freqtrade.data.converter - INFO - Missing data fillup for POWR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,093 - freqtrade.data.converter - INFO - Missing data fillup for REQ/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,113 - freqtrade.data.converter - INFO - Missing data fillup for RLC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,137 - freqtrade.data.converter - INFO - Missing data fillup for PNT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,163 - freqtrade.data.converter - INFO - Missing data fillup for DATA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,188 - freqtrade.data.converter - INFO - Missing data fillup for OGN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,213 - freqtrade.data.converter - INFO - Missing data fillup for GRT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,237 - freqtrade.data.converter - INFO - Missing data fillup for SYS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,265 - freqtrade.data.converter - INFO - Missing data fillup for ZIL/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,289 - freqtrade.data.converter - INFO - Missing data fillup for NMR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,334 - freqtrade.data.converter - INFO - Missing data fillup for OXT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,362 - freqtrade.data.converter - INFO - Missing data fillup for AGI/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,389 - freqtrade.data.converter - INFO - Missing data fillup for SUN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,414 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,439 - freqtrade.data.converter - INFO - Missing data fillup for FTM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,468 - freqtrade.data.converter - INFO - Missing data fillup for ONT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,495 - freqtrade.data.converter - INFO - Missing data fillup for DIA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,524 - freqtrade.data.converter - INFO - Missing data fillup for AVAX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,554 - freqtrade.data.converter - INFO - Missing data fillup for LTO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,579 - freqtrade.data.converter - INFO - Missing data fillup for INJ/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,603 - freqtrade.data.converter - INFO - Missing data fillup for ICX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,630 - freqtrade.data.converter - INFO - Missing data fillup for WABI/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,655 - freqtrade.data.converter - INFO - Missing data fillup for KNC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,681 - freqtrade.data.converter - INFO - Missing data fillup for RIF/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,706 - freqtrade.data.converter - INFO - Missing data fillup for ONG/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,733 - freqtrade.data.converter - INFO - Missing data fillup for FIL/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,756 - freqtrade.data.converter - INFO - Missing data fillup for WAN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,786 - freqtrade.data.converter - INFO - Missing data fillup for ZEC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,815 - freqtrade.data.converter - INFO - Missing data fillup for CELR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,838 - freqtrade.data.converter - INFO - Missing data fillup for STEEM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,865 - freqtrade.data.converter - INFO - Missing data fillup for QKC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,889 - freqtrade.data.converter - INFO - Missing data fillup for STORJ/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,915 - freqtrade.data.converter - INFO - Missing data fillup for YFII/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,940 - freqtrade.data.converter - INFO - Missing data fillup for DREP/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,968 - freqtrade.data.converter - INFO - Missing data fillup for QTUM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:21,995 - freqtrade.data.converter - INFO - Missing data fillup for DNT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,022 - freqtrade.data.converter - INFO - Missing data fillup for MTL/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,054 - freqtrade.data.converter - INFO - Missing data fillup for ARPA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,081 - freqtrade.data.converter - INFO - Missing data fillup for OMG/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,110 - freqtrade.data.converter - INFO - Missing data fillup for XLM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,140 - freqtrade.data.converter - INFO - Missing data fillup for CRV/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,172 - freqtrade.data.converter - INFO - Missing data fillup for FTT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,210 - freqtrade.data.converter - INFO - Missing data fillup for ROSE/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,243 - freqtrade.data.converter - INFO - Missing data fillup for WTC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,272 - freqtrade.data.converter - INFO - Missing data fillup for POLY/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,304 - freqtrade.data.converter - INFO - Missing data fillup for ZEN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,340 - freqtrade.data.converter - INFO - Missing data fillup for COTI/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,372 - freqtrade.data.converter - INFO - Missing data fillup for SRM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,405 - freqtrade.data.converter - INFO - Missing data fillup for TRX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,438 - freqtrade.data.converter - INFO - Missing data fillup for BTS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,471 - freqtrade.data.converter - INFO - Missing data fillup for UNFI/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,504 - freqtrade.data.converter - INFO - Missing data fillup for DOCK/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,536 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,567 - freqtrade.data.converter - INFO - Missing data fillup for STX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,595 - freqtrade.data.converter - INFO - Missing data fillup for ELF/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,622 - freqtrade.data.converter - INFO - Missing data fillup for RUNE/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,649 - freqtrade.data.converter - INFO - Missing data fillup for UMA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,675 - freqtrade.data.converter - INFO - Missing data fillup for IOTX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,706 - freqtrade.data.converter - INFO - Missing data fillup for DCR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,738 - freqtrade.data.converter - INFO - Missing data fillup for ARDR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,769 - freqtrade.data.converter - INFO - Missing data fillup for REP/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,799 - freqtrade.data.converter - INFO - Missing data fillup for BAL/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,823 - freqtrade.data.converter - INFO - Missing data fillup for AAVE/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,854 - freqtrade.data.converter - INFO - Missing data fillup for VIDT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,886 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,914 - freqtrade.data.converter - INFO - Missing data fillup for BAND/BTC: before: 999 - after: 1000
+2021-02-19 14:11:22,990 - freqtrade.data.converter - INFO - Missing data fillup for SAND/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,019 - freqtrade.data.converter - INFO - Missing data fillup for SUSHI/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,046 - freqtrade.data.converter - INFO - Missing data fillup for MDT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,078 - freqtrade.data.converter - INFO - Missing data fillup for BZRX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,131 - freqtrade.data.converter - INFO - Missing data fillup for DGB/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,159 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,186 - freqtrade.data.converter - INFO - Missing data fillup for KSM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,212 - freqtrade.data.converter - INFO - Missing data fillup for WRX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,242 - freqtrade.data.converter - INFO - Missing data fillup for RVN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,276 - freqtrade.data.converter - INFO - Missing data fillup for EGLD/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,305 - freqtrade.data.converter - INFO - Missing data fillup for COMP/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,336 - freqtrade.data.converter - INFO - Missing data fillup for FIO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,363 - freqtrade.data.converter - INFO - Missing data fillup for MANA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,392 - freqtrade.data.converter - INFO - Missing data fillup for GVT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,425 - freqtrade.data.converter - INFO - Missing data fillup for STMX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,451 - freqtrade.data.converter - INFO - Missing data fillup for CKB/BTC: before: 577 - after: 578
+2021-02-19 14:11:23,472 - freqtrade.data.converter - INFO - Missing data fillup for SNT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,496 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,519 - freqtrade.data.converter - INFO - Missing data fillup for HARD/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,545 - freqtrade.data.converter - INFO - Missing data fillup for ALPHA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,569 - freqtrade.data.converter - INFO - Missing data fillup for WING/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,592 - freqtrade.data.converter - INFO - Missing data fillup for BQX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,616 - freqtrade.data.converter - INFO - Missing data fillup for YOYOW/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,639 - freqtrade.data.converter - INFO - Missing data fillup for TWT/BTC: before: 557 - after: 558
+2021-02-19 14:11:23,664 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,685 - freqtrade.data.converter - INFO - Missing data fillup for AXS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,707 - freqtrade.data.converter - INFO - Missing data fillup for DUSK/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,731 - freqtrade.data.converter - INFO - Missing data fillup for ETC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,751 - freqtrade.data.converter - INFO - Missing data fillup for FLM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,771 - freqtrade.data.converter - INFO - Missing data fillup for THETA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,796 - freqtrade.data.converter - INFO - Missing data fillup for NKN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,817 - freqtrade.data.converter - INFO - Missing data fillup for IDEX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,838 - freqtrade.data.converter - INFO - Missing data fillup for JST/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,858 - freqtrade.data.converter - INFO - Missing data fillup for SFP/BTC: before: 264 - after: 265
+2021-02-19 14:11:23,878 - freqtrade.data.converter - INFO - Missing data fillup for GXS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,901 - freqtrade.data.converter - INFO - Missing data fillup for DLT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,923 - freqtrade.data.converter - INFO - Missing data fillup for BEAM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,946 - freqtrade.data.converter - INFO - Missing data fillup for ZRX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:23,994 - freqtrade.data.converter - INFO - Missing data fillup for BLZ/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,020 - freqtrade.data.converter - INFO - Missing data fillup for OCEAN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,053 - freqtrade.data.converter - INFO - Missing data fillup for BTG/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,078 - freqtrade.data.converter - INFO - Missing data fillup for BTCST/BTC: before: 895 - after: 896
+2021-02-19 14:11:24,103 - freqtrade.data.converter - INFO - Missing data fillup for TOMO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,128 - freqtrade.data.converter - INFO - Missing data fillup for MKR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,152 - freqtrade.data.converter - INFO - Missing data fillup for VIB/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,177 - freqtrade.data.converter - INFO - Missing data fillup for ADX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,206 - freqtrade.data.converter - INFO - Missing data fillup for GRS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,236 - freqtrade.data.converter - INFO - Missing data fillup for WNXM/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,263 - freqtrade.data.converter - INFO - Missing data fillup for MATIC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,295 - freqtrade.data.converter - INFO - Missing data fillup for ONE/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,330 - freqtrade.data.converter - INFO - Missing data fillup for TRB/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,362 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,389 - freqtrade.data.converter - INFO - Missing data fillup for RDN/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,421 - freqtrade.data.converter - INFO - Missing data fillup for SKL/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,453 - freqtrade.data.converter - INFO - Missing data fillup for SKY/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,485 - freqtrade.data.converter - INFO - Missing data fillup for LRC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,519 - freqtrade.data.converter - INFO - Missing data fillup for AKRO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,551 - freqtrade.data.converter - INFO - Missing data fillup for UTK/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,577 - freqtrade.data.converter - INFO - Missing data fillup for WBTC/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,602 - freqtrade.data.converter - INFO - Missing data fillup for FET/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,626 - freqtrade.data.converter - INFO - Missing data fillup for LUNA/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,651 - freqtrade.data.converter - INFO - Missing data fillup for STRAX/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,676 - freqtrade.data.converter - INFO - Missing data fillup for PERL/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,701 - freqtrade.data.converter - INFO - Missing data fillup for CELO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,726 - freqtrade.data.converter - INFO - Missing data fillup for LSK/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,746 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,767 - freqtrade.data.converter - INFO - Missing data fillup for AION/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,790 - freqtrade.data.converter - INFO - Missing data fillup for DASH/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,813 - freqtrade.data.converter - INFO - Missing data fillup for CTSI/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,836 - freqtrade.data.converter - INFO - Missing data fillup for REEF/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,859 - freqtrade.data.converter - INFO - Missing data fillup for NEAR/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,879 - freqtrade.data.converter - INFO - Missing data fillup for BNB/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,901 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,924 - freqtrade.data.converter - INFO - Missing data fillup for AERGO/BTC: before: 999 - after: 1000
+2021-02-19 14:11:24,945 - freqtrade.data.converter - INFO - Missing data fillup for AST/BTC: before: 999 - after: 1000
+2021-02-19 14:11:29,852 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='RUNNING'
+2021-02-19 14:11:32,558 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:11:38,066 - freqtrade.exchange.common - WARNING - fetch_order() returned exception: "Order not found (pair: MATIC/BTC id: 83519010). Message: binance {"code":-2013,"msg":"Order does not exist."}"
+2021-02-19 14:11:38,066 - freqtrade.exchange.common - WARNING - retrying fetch_order() still for 5 times
+2021-02-19 14:11:38,066 - freqtrade.exchange.common - INFO - Applying DDosProtection backoff delay: 1
+2021-02-19 14:11:39,758 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:11:44,180 - freqtrade.exchange.common - WARNING - fetch_order() returned exception: "Order not found (pair: MATIC/BTC id: 83519010). Message: binance {"code":-2013,"msg":"Order does not exist."}"
+2021-02-19 14:11:44,181 - freqtrade.exchange.common - WARNING - retrying fetch_order() still for 5 times
+2021-02-19 14:11:44,181 - freqtrade.exchange.common - INFO - Applying DDosProtection backoff delay: 1
+2021-02-19 14:11:45,484 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:11:50,280 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:11:54,883 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:11:54,886 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:11:56,730 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:01,174 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:06,452 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:11,806 - freqtrade.exchange.common - WARNING - fetch_order() returned exception: "Order not found (pair: MATIC/BTC id: 83519010). Message: binance {"code":-2013,"msg":"Order does not exist."}"
+2021-02-19 14:12:11,806 - freqtrade.exchange.common - WARNING - retrying fetch_order() still for 5 times
+2021-02-19 14:12:11,806 - freqtrade.exchange.common - INFO - Applying DDosProtection backoff delay: 1
+2021-02-19 14:12:13,103 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:13,709 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 1272433706
+2021-02-19 14:12:17,233 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:22,244 - freqtrade.exchange.common - WARNING - fetch_order() returned exception: "Order not found (pair: MATIC/BTC id: 83519010). Message: binance {"code":-2013,"msg":"Order does not exist."}"
+2021-02-19 14:12:22,245 - freqtrade.exchange.common - WARNING - retrying fetch_order() still for 5 times
+2021-02-19 14:12:22,245 - freqtrade.exchange.common - INFO - Applying DDosProtection backoff delay: 1
+2021-02-19 14:12:23,536 - freqtrade.exchange.common - WARNING - fetch_order() returned exception: "Order not found (pair: MATIC/BTC id: 83519010). Message: binance {"code":-2013,"msg":"Order does not exist."}"
+2021-02-19 14:12:23,536 - freqtrade.exchange.common - WARNING - retrying fetch_order() still for 4 times
+2021-02-19 14:12:23,536 - freqtrade.exchange.common - INFO - Applying DDosProtection backoff delay: 2
+2021-02-19 14:12:25,840 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:27,641 - freqtrade.rpc.telegram - INFO - Executing handler: _forcesell for chat_id: 1272433706
+2021-02-19 14:12:29,377 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:12:29,950 - freqtrade.freqtradebot - INFO - Sell order forcesold for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52).
+2021-02-19 14:12:30,287 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:12:30,290 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_cancel, 'trade_id': 10, 'exchange': 'Binance', 'pair': 'MATIC/BTC', 'gain': 'loss', 'limit': None, 'order_type': 'limit', 'amount': 50.0, 'open_rate': 2.38e-06, 'current_rate': 2.32e-06, 'profit_amount': -0.00011909, 'profit_ratio': -1.0, 'sell_reason': 'force_sell', 'open_date': datetime.datetime(2021, 2, 19, 0, 0, 52, 434668), 'close_date': None, 'stake_currency': 'BTC', 'fiat_currency': 'BRL', 'reason': 'forcesold'}
+2021-02-19 14:12:31,537 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:12:32,734 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 10, 'exchange': 'Binance', 'pair': 'MATIC/BTC', 'gain': 'loss', 'limit': 2.32e-06, 'order_type': 'limit', 'amount': 50.0, 'open_rate': 2.38e-06, 'current_rate': 2.32e-06, 'profit_amount': -3.18e-06, 'profit_ratio': -0.02667538, 'sell_reason': 'force_sell', 'open_date': datetime.datetime(2021, 2, 19, 0, 0, 52, 434668), 'close_date': datetime.datetime(2021, 2, 19, 14, 12, 32, 734781), 'stake_currency': 'BTC', 'fiat_currency': 'BRL'}
+2021-02-19 14:12:33,406 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:12:33,406 - freqtrade.rpc.telegram - ERROR - Exception occurred within Telegram module
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/rpc/telegram.py", line 58, in wrapper
+    return command_handler(self, *args, **kwargs)
+  File "/freqtrade/freqtrade/rpc/telegram.py", line 584, in _forcesell
+    msg = self._rpc._rpc_forcesell(trade_id)
+  File "/freqtrade/freqtrade/rpc/rpc.py", line 549, in _rpc_forcesell
+    _exec_forcesell(trade)
+  File "/freqtrade/freqtrade/rpc/rpc.py", line 539, in _exec_forcesell
+    self._freqtrade.execute_sell(trade, current_rate, SellType.FORCE_SELL)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 1264, in execute_sell
+    amount = self._safe_sell_amount(trade.pair, trade.amount)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 1231, in _safe_sell_amount
+    raise DependencyException(
+freqtrade.exceptions.DependencyException: Not enough amount to sell. Trade-amount: 81.0, Wallet: 0
+2021-02-19 14:12:33,410 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:12:34,223 - freqtrade.exchange.common - WARNING - fetch_order() returned exception: "Order not found (pair: MATIC/BTC id: 83519010). Message: binance {"code":-2013,"msg":"Order does not exist."}"
+2021-02-19 14:12:34,224 - freqtrade.exchange.common - WARNING - retrying fetch_order() still for 5 times
+2021-02-19 14:12:34,224 - freqtrade.exchange.common - INFO - Applying DDosProtection backoff delay: 1
+2021-02-19 14:12:36,011 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:37,488 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='RUNNING'
+2021-02-19 14:12:39,685 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:44,973 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:50,297 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:12:55,029 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:13:00,159 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:13:03,886 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:13:03,889 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:13:06,672 - freqtrade.exchange.common - WARNING - fetch_order() returned exception: "Order not found (pair: MATIC/BTC id: 83519285). Message: binance {"code":-2013,"msg":"Order does not exist."}"
+2021-02-19 14:13:06,672 - freqtrade.exchange.common - WARNING - retrying fetch_order() still for 5 times
+2021-02-19 14:13:06,673 - freqtrade.exchange.common - INFO - Applying DDosProtection backoff delay: 1
+2021-02-19 14:13:07,969 - freqtrade.exchange.common - WARNING - fetch_order() returned exception: "Order not found (pair: MATIC/BTC id: 83519285). Message: binance {"code":-2013,"msg":"Order does not exist."}"
+2021-02-19 14:13:07,969 - freqtrade.exchange.common - WARNING - retrying fetch_order() still for 4 times
+2021-02-19 14:13:07,969 - freqtrade.exchange.common - INFO - Applying DDosProtection backoff delay: 2
+2021-02-19 14:13:10,373 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:13:14,292 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:13:19,901 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:13:25,116 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:13:30,220 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:13:35,367 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52)
+2021-02-19 14:13:35,893 - freqtrade.persistence.models - INFO - Updating trade (id=10) ...
+2021-02-19 14:13:35,893 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=2021-02-19 00:00:52).
+2021-02-19 14:13:35,893 - freqtrade.persistence.models - INFO - Marking Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-02-19 14:13:36,478 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:38,374 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:13:38,375 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:13:39,141 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:39,144 - freqtrade.freqtradebot - WARNING - Unable to create trade for REEF/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:39,519 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:39,521 - freqtrade.freqtradebot - WARNING - Unable to create trade for VET/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:39,647 - freqtrade.freqtradebot - INFO - Pair MATIC/BTC is still locked until 2021-02-19 15:00:00.
+2021-02-19 14:13:40,162 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:40,164 - freqtrade.freqtradebot - WARNING - Unable to create trade for FTM/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:40,644 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:40,646 - freqtrade.freqtradebot - WARNING - Unable to create trade for LTO/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:41,152 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:41,154 - freqtrade.freqtradebot - WARNING - Unable to create trade for ZIL/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:41,643 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:41,646 - freqtrade.freqtradebot - WARNING - Unable to create trade for RSR/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:42,265 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:42,267 - freqtrade.freqtradebot - WARNING - Unable to create trade for HBAR/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:42,737 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:42,739 - freqtrade.freqtradebot - WARNING - Unable to create trade for CELR/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:43,252 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:43,254 - freqtrade.freqtradebot - WARNING - Unable to create trade for STPT/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:43,806 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:43,808 - freqtrade.freqtradebot - WARNING - Unable to create trade for ROSE/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:44,261 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:44,263 - freqtrade.freqtradebot - WARNING - Unable to create trade for SC/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:44,739 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:44,740 - freqtrade.freqtradebot - WARNING - Unable to create trade for IOTX/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:45,254 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:45,256 - freqtrade.freqtradebot - WARNING - Unable to create trade for RIF/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:45,758 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:45,760 - freqtrade.freqtradebot - WARNING - Unable to create trade for IRIS/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:46,252 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:46,255 - freqtrade.freqtradebot - WARNING - Unable to create trade for SYS/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:46,745 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:46,747 - freqtrade.freqtradebot - WARNING - Unable to create trade for BTS/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:47,571 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:47,574 - freqtrade.freqtradebot - WARNING - Unable to create trade for CTSI/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:47,894 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:47,896 - freqtrade.freqtradebot - WARNING - Unable to create trade for CHR/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:48,715 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:48,716 - freqtrade.freqtradebot - WARNING - Unable to create trade for VIB/BTC: Available balance (8.345070000000002e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:49,396 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:49,398 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:13:49,398 - freqtrade.freqtradebot - INFO - Executing Buy for DATA/BTC
+2021-02-19 14:13:49,398 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:13:50,005 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000220
+2021-02-19 14:13:50,005 - freqtrade.freqtradebot - WARNING - Can't open a new trade for DATA/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:13:50,778 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:50,782 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:13:50,783 - freqtrade.freqtradebot - INFO - Executing Buy for FUN/BTC
+2021-02-19 14:13:50,783 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:13:51,069 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000065
+2021-02-19 14:13:51,070 - freqtrade.freqtradebot - WARNING - Can't open a new trade for FUN/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:13:51,589 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:51,591 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:13:51,591 - freqtrade.freqtradebot - INFO - Executing Buy for NKN/BTC
+2021-02-19 14:13:51,592 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:13:52,066 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000101
+2021-02-19 14:13:52,066 - freqtrade.freqtradebot - WARNING - Can't open a new trade for NKN/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:13:52,919 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:52,921 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:13:52,922 - freqtrade.freqtradebot - INFO - Executing Buy for STMX/BTC
+2021-02-19 14:13:52,922 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:13:53,206 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000020
+2021-02-19 14:13:53,206 - freqtrade.freqtradebot - WARNING - Can't open a new trade for STMX/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:13:53,747 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:53,749 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:13:53,749 - freqtrade.freqtradebot - INFO - Executing Buy for DLT/BTC
+2021-02-19 14:13:53,749 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:13:54,208 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000261
+2021-02-19 14:13:54,209 - freqtrade.freqtradebot - WARNING - Can't open a new trade for DLT/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:13:54,745 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:54,748 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:13:54,748 - freqtrade.freqtradebot - INFO - Executing Buy for PERL/BTC
+2021-02-19 14:13:54,749 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:13:55,248 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000146
+2021-02-19 14:13:55,249 - freqtrade.freqtradebot - WARNING - Can't open a new trade for PERL/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:13:55,764 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:55,768 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:13:55,768 - freqtrade.freqtradebot - INFO - Executing Buy for CKB/BTC
+2021-02-19 14:13:55,768 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:13:56,204 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000018
+2021-02-19 14:13:56,204 - freqtrade.freqtradebot - WARNING - Can't open a new trade for CKB/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:13:56,432 - freqtrade.rpc.telegram - INFO - Executing handler: _stopbuy for chat_id: 1272433706
+2021-02-19 14:13:56,732 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:13:56,734 - freqtrade.freqtradebot - WARNING - Unable to create trade for AERGO/BTC: Available balance (8.356949999999998e-05 BTC) is lower than stake amount (0.00012 BTC)
+2021-02-19 14:13:56,802 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='RUNNING'
+2021-02-19 14:14:12,861 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:14:12,866 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:14:23,666 - freqtrade.rpc.telegram - INFO - Executing handler: _stopbuy for chat_id: 1272433706
+2021-02-19 14:14:28,707 - freqtrade.rpc.telegram - INFO - Executing handler: _stop for chat_id: 1272433706
+2021-02-19 14:14:31,808 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'stopped'}
+2021-02-19 14:14:32,172 - freqtrade.worker - INFO - Changing state to: STOPPED
+2021-02-19 14:14:32,177 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': "3 open trades active.\n\nHandle these trades manually on Binance, or '/start' the bot again and use '/stopbuy' to handle open trades gracefully. \n"}
+2021-02-19 14:14:37,662 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:14:45,940 - freqtrade.rpc.telegram - INFO - Executing handler: _stop for chat_id: 1272433706
+2021-02-19 14:14:47,374 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:14:47,374 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:15:37,704 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:16:37,751 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:17:37,791 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:18:37,834 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:19:37,877 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:20:37,926 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:21:37,971 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:22:38,017 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:23:38,057 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:24:31,438 - freqtrade.rpc.telegram - INFO - Executing handler: _stop for chat_id: 1272433706
+2021-02-19 14:24:38,097 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:25:31,925 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:25:31,926 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:25:37,376 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:25:37,377 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:25:38,141 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:25:43,824 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:25:43,825 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:25:52,001 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:25:52,001 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:25:59,824 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:25:59,825 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:26:06,699 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 1272433706
+2021-02-19 14:26:10,060 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:26:10,060 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:26:15,517 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:26:15,517 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:26:21,977 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:26:21,978 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 465, in _network_loop_retry
+    if not action_cb():
+  File "/root/.local/lib/python3.8/site-packages/telegram/ext/updater.py", line 416, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 2638, in get_updates
+    result = self._post(
+  File "/root/.local/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/root/.local/lib/python3.8/site-packages/telegram/utils/request.py", line 276, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-19 14:26:38,184 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:27:38,224 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:28:38,264 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:29:38,304 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.1', state='STOPPED'
+2021-02-19 14:30:34,510 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-02-19 14:30:34,510 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-02-19 14:30:34,511 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-02-19 14:30:34,511 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-02-19 14:30:34,511 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2021-02-19 14:30:34,511 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 4 ...
+2021-02-19 14:30:34,511 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-02-19 14:30:34,512 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2021-02-19 14:30:34,512 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-02-19 14:30:34,512 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2021-02-19 14:30:34,512 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-02-19 14:30:34,512 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-4e5f8478
+2021-02-19 14:30:34,546 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/MultiRSI.py due to 'No module named 'technical''
+2021-02-19 14:30:34,548 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/ReinforcedAverageStrategy.py due to 'No module named 'technical''
+2021-02-19 14:30:34,551 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/ReinforcedSmoothScalp.py due to 'No module named 'technical''
+2021-02-19 14:30:34,964 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/TechnicalExampleStrategy.py due to 'No module named 'technical''
+2021-02-19 14:30:34,965 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy bbrsi from '/freqtrade/user_data/strategies/strategy-01-bb-rsi.py'...
+2021-02-19 14:30:34,966 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1h.
+2021-02-19 14:30:34,966 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: BTC.
+2021-02-19 14:30:34,966 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 0.00012.
+2021-02-19 14:30:34,966 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-02-19 14:30:34,966 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-02-19 14:30:34,967 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-02-19 14:30:34,967 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-02-19 14:30:34,967 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.24141, '13': 0.0496, '51': 0.01047, '135': 0}
+2021-02-19 14:30:34,967 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1h
+2021-02-19 14:30:34,967 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.12515
+2021-02-19 14:30:34,967 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-02-19 14:30:34,967 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-02-19 14:30:34,967 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-02-19 14:30:34,967 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-02-19 14:30:34,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-02-19 14:30:34,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2021-02-19 14:30:34,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-02-19 14:30:34,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: BTC
+2021-02-19 14:30:34,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 0.00012
+2021-02-19 14:30:34,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2021-02-19 14:30:34,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-02-19 14:30:34,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-02-19 14:30:34,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-02-19 14:30:34,969 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-02-19 14:30:34,969 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-02-19 14:30:34,969 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-02-19 14:30:34,969 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-02-19 14:30:34,969 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-02-19 14:30:34,974 - freqtrade.exchange.exchange - INFO - Using CCXT 1.41.90
+2021-02-19 14:30:34,975 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-02-19 14:30:34,983 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 200}
+2021-02-19 14:30:34,995 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2021-02-19 14:30:37,014 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2021-02-19 14:30:37,347 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:30:37,358 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2021-02-19 14:30:37,358 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-02-19 14:30:38,807 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring MFT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,808 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring INS/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,808 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring LUN/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,808 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring PHX/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,809 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring ENG/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,809 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring LEND/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,809 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring SUB/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,809 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring TUSD/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,810 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring RPX/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,810 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring DAI/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,810 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring PAX/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,810 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BCN/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,810 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring SALT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,810 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring ERD/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,811 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring AE/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,811 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring KEY/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,811 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring WINGS/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,811 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring MOD/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,811 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BTT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,811 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BTCB/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,811 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring HOT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,812 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring VEN/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,812 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring COCOS/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,812 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring DGD/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,812 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BCC/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,812 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring TRIG/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,812 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BSV/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,812 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring NPXS/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,813 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring STORM/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,813 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring HSR/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,813 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring BCPT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,813 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring DENT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,813 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring CMT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,813 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring GNT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,814 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring XZC/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,814 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring STRAT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,814 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring ARN/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,814 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring CHAT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,814 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring POE/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,814 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring MCO/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,814 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring TNT/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,815 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring MBL/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,815 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring CLOAK/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,815 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring HC/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,815 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring ICN/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,815 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring FUEL/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,815 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring EDO/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,815 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring WIN/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,815 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring NCASH/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,816 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring TNB/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,816 - freqtrade.plugins.pairlist.IPairList - INFO - Ignoring VIBE/BTC from whitelist. Market is not active.
+2021-02-19 14:30:38,825 - VolumePairList - INFO - Pair ETH/BTC in your blacklist. Removing it from whitelist...
+2021-02-19 14:30:38,825 - VolumePairList - INFO - Pair LINK/BTC in your blacklist. Removing it from whitelist...
+2021-02-19 14:30:38,825 - VolumePairList - INFO - Pair XVG/BTC in your blacklist. Removing it from whitelist...
+2021-02-19 14:30:38,825 - VolumePairList - INFO - Searching 200 pairs: ['BNB/BTC', 'ADA/BTC', 'DOGE/BTC', 'SXP/BTC', 'DOT/BTC', 'XRP/BTC', 'LTC/BTC', 'BCH/BTC', 'DASH/BTC', 'EOS/BTC', 'CHZ/BTC', 'RVN/BTC', 'TRX/BTC', 'XVS/BTC', 'DODO/BTC', 'IOTA/BTC', 'BNT/BTC', 'REEF/BTC', 'IOST/BTC', 'REN/BTC', 'GLM/BTC', 'ATOM/BTC', 'ICX/BTC', 'GRT/BTC', 'XMR/BTC', 'VET/BTC', 'AAVE/BTC', 'CAKE/BTC', 'SKY/BTC', 'FTT/BTC', 'XEM/BTC', 'XTZ/BTC', 'POLY/BTC', 'SOL/BTC', 'XLM/BTC', 'SUSHI/BTC', 'FET/BTC', 'FXS/BTC', 'MATIC/BTC', 'SAND/BTC', 'BQX/BTC', 'LUNA/BTC', 'NEO/BTC', 'ALGO/BTC', 'ZEC/BTC', 'EGLD/BTC', 'UNI/BTC', 'WBTC/BTC', 'YFI/BTC', 'LOOM/BTC', 'AVAX/BTC', 'CELO/BTC', 'AION/BTC', 'TFUEL/BTC', 'BAND/BTC', 'ONT/BTC', 'NANO/BTC', 'BAT/BTC', 'SNX/BTC', 'QTUM/BTC', 'ELF/BTC', 'SFP/BTC', 'FIL/BTC', 'FTM/BTC', 'OMG/BTC', 'THETA/BTC', '1INCH/BTC', 'LIT/BTC', 'COTI/BTC', 'KSM/BTC', 'LTO/BTC', 'UNFI/BTC', 'ENJ/BTC', 'RUNE/BTC', 'ETC/BTC', 'ZIL/BTC', 'ALPHA/BTC', 'KNC/BTC', 'WPR/BTC', 'RSR/BTC', 'HBAR/BTC', 'SRM/BTC', 'KAVA/BTC', 'ONE/BTC', 'ZRX/BTC', 'HARD/BTC', 'WABI/BTC', 'WAVES/BTC', 'DIA/BTC', 'MANA/BTC', 'UTK/BTC', 'CVC/BTC', 'LSK/BTC', 'OCEAN/BTC', 'JST/BTC', 'DGB/BTC', 'ANKR/BTC', 'INJ/BTC', 'TWT/BTC', 'ARK/BTC', 'DUSK/BTC', 'STX/BTC', 'TOMO/BTC', 'ZEN/BTC', 'CRV/BTC', 'CELR/BTC', 'STPT/BTC', 'GAS/BTC', 'COMP/BTC', 'DCR/BTC', 'SC/BTC', 'GXS/BTC', 'AGI/BTC', 'RLC/BTC', 'MDA/BTC', 'YFII/BTC', 'POWR/BTC', 'NEAR/BTC', 'AUDIO/BTC', 'LRC/BTC', 'ROSE/BTC', 'WAN/BTC', 'AST/BTC', 'SCRT/BTC', 'NAV/BTC', 'VIDT/BTC', 'MTL/BTC', 'IOTX/BTC', 'WRX/BTC', 'MDT/BTC', 'SKL/BTC', 'STORJ/BTC', 'AKRO/BTC', 'GRS/BTC', 'STEEM/BTC', 'ARPA/BTC', 'BEL/BTC', 'OXT/BTC', 'RIF/BTC', 'BTG/BTC', 'CTK/BTC', 'BLZ/BTC', 'BAL/BTC', 'OGN/BTC', 'IRIS/BTC', 'KMD/BTC', 'DNT/BTC', 'REQ/BTC', 'REP/BTC', 'TRU/BTC', 'FLM/BTC', 'BZRX/BTC', 'BTS/BTC', 'ORN/BTC', 'ADX/BTC', 'MKR/BTC', 'PNT/BTC', 'CTSI/BTC', 'FOR/BTC', 'CHR/BTC', 'SYS/BTC', 'VIB/BTC', 'BTCST/BTC', 'AXS/BTC', 'IDEX/BTC', 'DATA/BTC', 'WTC/BTC', 'AVA/BTC', 'FRONT/BTC', 'TRB/BTC', 'BCD/BTC', 'NMR/BTC', 'FUN/BTC', 'EASY/BTC', 'GVT/BTC', 'UMA/BTC', 'ARDR/BTC', 'STRAX/BTC', 'NKN/BTC', 'PIVX/BTC', 'FIO/BTC', 'HIVE/BTC', 'NAS/BTC', 'STMX/BTC', 'PERL/BTC', 'SUN/BTC', 'WING/BTC', 'BEAM/BTC', 'HNT/BTC', 'CKB/BTC', 'DLT/BTC', 'RDN/BTC', 'AERGO/BTC', 'SNT/BTC', 'ONG/BTC', 'COS/BTC', 'YOYOW/BTC', 'DREP/BTC', 'QKC/BTC', 'DOCK/BTC']
+2021-02-19 14:30:39,013 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-02-19 14:30:39,714 - apscheduler.scheduler - INFO - Scheduler started
+2021-02-19 14:30:41,826 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-02-19 14:30:41,826 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-02-19 14:30:42,628 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-02-19 14:30:42,629 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `0.00012 BTC`\n*Minimum ROI:* `{'0': 0.24141, '13': 0.0496, '51': 0.01047, '135': 0}`\n*Stoploss:* `-0.12515`\n*Timeframe:* `1h`\n*Strategy:* `bbrsi`"}
+2021-02-19 14:30:42,998 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for BTC pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 200 volume pairs.'}]"}
+2021-02-19 14:30:43,402 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=11, pair=DGB/BTC, amount=81.00000000, open_rate=0.00000147, open_since=2021-02-19 00:14:31)
+2021-02-19 14:30:43,403 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=12, pair=ANKR/BTC, amount=214.00000000, open_rate=0.00000057, open_since=2021-02-19 00:33:41)
+2021-02-19 14:30:43,403 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=15, pair=DOGE/BTC, amount=109.00000000, open_rate=0.00000110, open_since=2021-02-19 07:39:31)
+2021-02-19 14:30:43,407 - freqtrade.freqtradebot - INFO - Updating 1 open orders.
+2021-02-19 14:30:43,697 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=10, pair=MATIC/BTC, amount=50.00000000, open_rate=0.00000238, open_since=closed)
+2021-02-19 14:31:24,901 - freqtrade.data.converter - INFO - Missing data fillup for AST/BTC: before: 999 - after: 1000
+2021-02-19 14:31:24,929 - freqtrade.data.converter - INFO - Missing data fillup for ELF/BTC: before: 999 - after: 1000
+2021-02-19 14:31:24,956 - freqtrade.data.converter - INFO - Missing data fillup for TFUEL/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,002 - freqtrade.data.converter - INFO - Missing data fillup for WRX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,029 - freqtrade.data.converter - INFO - Missing data fillup for DUSK/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,079 - freqtrade.data.converter - INFO - Missing data fillup for ARPA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,105 - freqtrade.data.converter - INFO - Missing data fillup for FTM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,131 - freqtrade.data.converter - INFO - Missing data fillup for DNT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,157 - freqtrade.data.converter - INFO - Missing data fillup for BAL/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,185 - freqtrade.data.converter - INFO - Missing data fillup for PERL/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,214 - freqtrade.data.converter - INFO - Missing data fillup for ARK/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,243 - freqtrade.data.converter - INFO - Missing data fillup for FET/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,267 - freqtrade.data.converter - INFO - Missing data fillup for CTSI/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,294 - freqtrade.data.converter - INFO - Missing data fillup for TRU/BTC: before: 750 - after: 751
+2021-02-19 14:31:25,318 - freqtrade.data.converter - INFO - Missing data fillup for YFII/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,348 - freqtrade.data.converter - INFO - Missing data fillup for WBTC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,375 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,400 - freqtrade.data.converter - INFO - Missing data fillup for MDT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,429 - freqtrade.data.converter - INFO - Missing data fillup for RUNE/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,454 - freqtrade.data.converter - INFO - Missing data fillup for FLM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,476 - freqtrade.data.converter - INFO - Missing data fillup for THETA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,496 - freqtrade.data.converter - INFO - Missing data fillup for DREP/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,519 - freqtrade.data.converter - INFO - Missing data fillup for FUN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,541 - freqtrade.data.converter - INFO - Missing data fillup for NMR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,562 - freqtrade.data.converter - INFO - Missing data fillup for ENJ/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,585 - freqtrade.data.converter - INFO - Missing data fillup for FTT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,610 - freqtrade.data.converter - INFO - Missing data fillup for STRAX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,630 - freqtrade.data.converter - INFO - Missing data fillup for UMA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,655 - freqtrade.data.converter - INFO - Missing data fillup for STX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,676 - freqtrade.data.converter - INFO - Missing data fillup for BAND/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,697 - freqtrade.data.converter - INFO - Missing data fillup for RVN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,720 - freqtrade.data.converter - INFO - Missing data fillup for ZEC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,743 - freqtrade.data.converter - INFO - Missing data fillup for BLZ/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,763 - freqtrade.data.converter - INFO - Missing data fillup for OCEAN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,785 - freqtrade.data.converter - INFO - Missing data fillup for SKL/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,810 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,832 - freqtrade.data.converter - INFO - Missing data fillup for CKB/BTC: before: 577 - after: 578
+2021-02-19 14:31:25,857 - freqtrade.data.converter - INFO - Missing data fillup for LTO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,880 - freqtrade.data.converter - INFO - Missing data fillup for LUNA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,899 - freqtrade.data.converter - INFO - Missing data fillup for MATIC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,940 - freqtrade.data.converter - INFO - Missing data fillup for NEAR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,965 - freqtrade.data.converter - INFO - Missing data fillup for MTL/BTC: before: 999 - after: 1000
+2021-02-19 14:31:25,985 - freqtrade.data.converter - INFO - Missing data fillup for BEL/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,008 - freqtrade.data.converter - INFO - Missing data fillup for FIO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,030 - freqtrade.data.converter - INFO - Missing data fillup for ROSE/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,052 - freqtrade.data.converter - INFO - Missing data fillup for CVC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,075 - freqtrade.data.converter - INFO - Missing data fillup for BCD/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,098 - freqtrade.data.converter - INFO - Missing data fillup for GLM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,121 - freqtrade.data.converter - INFO - Missing data fillup for ONT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,144 - freqtrade.data.converter - INFO - Missing data fillup for CHR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,168 - freqtrade.data.converter - INFO - Missing data fillup for OMG/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,191 - freqtrade.data.converter - INFO - Missing data fillup for RDN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,214 - freqtrade.data.converter - INFO - Missing data fillup for NKN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,235 - freqtrade.data.converter - INFO - Missing data fillup for FOR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,261 - freqtrade.data.converter - INFO - Missing data fillup for GRT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,285 - freqtrade.data.converter - INFO - Missing data fillup for SKY/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,306 - freqtrade.data.converter - INFO - Missing data fillup for MDA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,331 - freqtrade.data.converter - INFO - Missing data fillup for STEEM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,353 - freqtrade.data.converter - INFO - Missing data fillup for DOCK/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,378 - freqtrade.data.converter - INFO - Missing data fillup for ONE/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,399 - freqtrade.data.converter - INFO - Missing data fillup for ICX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,422 - freqtrade.data.converter - INFO - Missing data fillup for SCRT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,445 - freqtrade.data.converter - INFO - Missing data fillup for RIF/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,466 - freqtrade.data.converter - INFO - Missing data fillup for REN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,489 - freqtrade.data.converter - INFO - Missing data fillup for COTI/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,513 - freqtrade.data.converter - INFO - Missing data fillup for KNC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,534 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,557 - freqtrade.data.converter - INFO - Missing data fillup for REQ/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,579 - freqtrade.data.converter - INFO - Missing data fillup for STMX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,600 - freqtrade.data.converter - INFO - Missing data fillup for ZRX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,624 - freqtrade.data.converter - INFO - Missing data fillup for IOST/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,646 - freqtrade.data.converter - INFO - Missing data fillup for DOGE/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,667 - freqtrade.data.converter - INFO - Missing data fillup for AGI/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,690 - freqtrade.data.converter - INFO - Missing data fillup for DLT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,713 - freqtrade.data.converter - INFO - Missing data fillup for CRV/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,734 - freqtrade.data.converter - INFO - Missing data fillup for LOOM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,756 - freqtrade.data.converter - INFO - Missing data fillup for ZEN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,796 - freqtrade.data.converter - INFO - Missing data fillup for MANA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,817 - freqtrade.data.converter - INFO - Missing data fillup for CELR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,839 - freqtrade.data.converter - INFO - Missing data fillup for GVT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,862 - freqtrade.data.converter - INFO - Missing data fillup for REEF/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,886 - freqtrade.data.converter - INFO - Missing data fillup for ARDR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,909 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,931 - freqtrade.data.converter - INFO - Missing data fillup for AERGO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,954 - freqtrade.data.converter - INFO - Missing data fillup for ZIL/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,975 - freqtrade.data.converter - INFO - Missing data fillup for GRS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:26,997 - freqtrade.data.converter - INFO - Missing data fillup for OGN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,018 - freqtrade.data.converter - INFO - Missing data fillup for COS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,042 - freqtrade.data.converter - INFO - Missing data fillup for SFP/BTC: before: 264 - after: 265
+2021-02-19 14:31:27,064 - freqtrade.data.converter - INFO - Missing data fillup for YOYOW/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,088 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,111 - freqtrade.data.converter - INFO - Missing data fillup for UNI/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,132 - freqtrade.data.converter - INFO - Missing data fillup for CTK/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,155 - freqtrade.data.converter - INFO - Missing data fillup for KMD/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,178 - freqtrade.data.converter - INFO - Missing data fillup for ONG/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,200 - freqtrade.data.converter - INFO - Missing data fillup for SC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,227 - freqtrade.data.converter - INFO - Missing data fillup for TOMO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,249 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,272 - freqtrade.data.converter - INFO - Missing data fillup for BQX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,295 - freqtrade.data.converter - INFO - Missing data fillup for SYS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,316 - freqtrade.data.converter - INFO - Missing data fillup for WABI/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,339 - freqtrade.data.converter - INFO - Missing data fillup for HARD/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,365 - freqtrade.data.converter - INFO - Missing data fillup for RSR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,384 - freqtrade.data.converter - INFO - Missing data fillup for BTCST/BTC: before: 895 - after: 896
+2021-02-19 14:31:27,409 - freqtrade.data.converter - INFO - Missing data fillup for AXS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,433 - freqtrade.data.converter - INFO - Missing data fillup for DCR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,461 - freqtrade.data.converter - INFO - Missing data fillup for BTS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,486 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,513 - freqtrade.data.converter - INFO - Missing data fillup for MKR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,539 - freqtrade.data.converter - INFO - Missing data fillup for DIA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,564 - freqtrade.data.converter - INFO - Missing data fillup for VET/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,589 - freqtrade.data.converter - INFO - Missing data fillup for AVA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,616 - freqtrade.data.converter - INFO - Missing data fillup for AKRO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,642 - freqtrade.data.converter - INFO - Missing data fillup for UNFI/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,665 - freqtrade.data.converter - INFO - Missing data fillup for SRM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,692 - freqtrade.data.converter - INFO - Missing data fillup for COMP/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,717 - freqtrade.data.converter - INFO - Missing data fillup for UTK/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,741 - freqtrade.data.converter - INFO - Missing data fillup for BNT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,765 - freqtrade.data.converter - INFO - Missing data fillup for EGLD/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,792 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,818 - freqtrade.data.converter - INFO - Missing data fillup for KAVA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,843 - freqtrade.data.converter - INFO - Missing data fillup for XVS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,868 - freqtrade.data.converter - INFO - Missing data fillup for LSK/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,894 - freqtrade.data.converter - INFO - Missing data fillup for DATA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,919 - freqtrade.data.converter - INFO - Missing data fillup for DOT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,947 - freqtrade.data.converter - INFO - Missing data fillup for BNB/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,970 - freqtrade.data.converter - INFO - Missing data fillup for ADA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:27,997 - freqtrade.data.converter - INFO - Missing data fillup for POLY/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,024 - freqtrade.data.converter - INFO - Missing data fillup for AVAX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,048 - freqtrade.data.converter - INFO - Missing data fillup for VIB/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,073 - freqtrade.data.converter - INFO - Missing data fillup for PIVX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,098 - freqtrade.data.converter - INFO - Missing data fillup for BTG/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,123 - freqtrade.data.converter - INFO - Missing data fillup for XLM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,149 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,171 - freqtrade.data.converter - INFO - Missing data fillup for TWT/BTC: before: 557 - after: 558
+2021-02-19 14:31:28,200 - freqtrade.data.converter - INFO - Missing data fillup for REP/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,232 - freqtrade.data.converter - INFO - Missing data fillup for IDEX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,265 - freqtrade.data.converter - INFO - Missing data fillup for FIL/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,294 - freqtrade.data.converter - INFO - Missing data fillup for ALPHA/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,319 - freqtrade.data.converter - INFO - Missing data fillup for ADX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,344 - freqtrade.data.converter - INFO - Missing data fillup for SXP/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,373 - freqtrade.data.converter - INFO - Missing data fillup for KSM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,399 - freqtrade.data.converter - INFO - Missing data fillup for ETC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,425 - freqtrade.data.converter - INFO - Missing data fillup for PNT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,453 - freqtrade.data.converter - INFO - Missing data fillup for YFI/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,479 - freqtrade.data.converter - INFO - Missing data fillup for QTUM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,502 - freqtrade.data.converter - INFO - Missing data fillup for SNT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,529 - freqtrade.data.converter - INFO - Missing data fillup for GXS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,554 - freqtrade.data.converter - INFO - Missing data fillup for VIDT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,581 - freqtrade.data.converter - INFO - Missing data fillup for NANO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,608 - freqtrade.data.converter - INFO - Missing data fillup for CHZ/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,632 - freqtrade.data.converter - INFO - Missing data fillup for SUSHI/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,654 - freqtrade.data.converter - INFO - Missing data fillup for SAND/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,682 - freqtrade.data.converter - INFO - Missing data fillup for TRB/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,703 - freqtrade.data.converter - INFO - Missing data fillup for LIT/BTC: before: 367 - after: 368
+2021-02-19 14:31:28,732 - freqtrade.data.converter - INFO - Missing data fillup for HNT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,759 - freqtrade.data.converter - INFO - Missing data fillup for GAS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,804 - freqtrade.data.converter - INFO - Missing data fillup for POWR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,829 - freqtrade.data.converter - INFO - Missing data fillup for NAS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,857 - freqtrade.data.converter - INFO - Missing data fillup for WAN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,882 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,907 - freqtrade.data.converter - INFO - Missing data fillup for STPT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,930 - freqtrade.data.converter - INFO - Missing data fillup for NAV/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,955 - freqtrade.data.converter - INFO - Missing data fillup for WING/BTC: before: 999 - after: 1000
+2021-02-19 14:31:28,982 - freqtrade.data.converter - INFO - Missing data fillup for LRC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,004 - freqtrade.data.converter - INFO - Missing data fillup for BEAM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,038 - freqtrade.data.converter - INFO - Missing data fillup for ANKR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,070 - freqtrade.data.converter - INFO - Missing data fillup for RLC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,102 - freqtrade.data.converter - INFO - Missing data fillup for SOL/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,129 - freqtrade.data.converter - INFO - Missing data fillup for 1INCH/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,153 - freqtrade.data.converter - INFO - Missing data fillup for HBAR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,180 - freqtrade.data.converter - INFO - Missing data fillup for AION/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,205 - freqtrade.data.converter - INFO - Missing data fillup for TRX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,232 - freqtrade.data.converter - INFO - Missing data fillup for SNX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,258 - freqtrade.data.converter - INFO - Missing data fillup for WTC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,282 - freqtrade.data.converter - INFO - Missing data fillup for CELO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,308 - freqtrade.data.converter - INFO - Missing data fillup for DASH/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,333 - freqtrade.data.converter - INFO - Missing data fillup for OXT/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,360 - freqtrade.data.converter - INFO - Missing data fillup for AAVE/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,389 - freqtrade.data.converter - INFO - Missing data fillup for ORN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,415 - freqtrade.data.converter - INFO - Missing data fillup for WAVES/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,439 - freqtrade.data.converter - INFO - Missing data fillup for AUDIO/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,464 - freqtrade.data.converter - INFO - Missing data fillup for QKC/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,485 - freqtrade.data.converter - INFO - Missing data fillup for HIVE/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,507 - freqtrade.data.converter - INFO - Missing data fillup for JST/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,529 - freqtrade.data.converter - INFO - Missing data fillup for IRIS/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,550 - freqtrade.data.converter - INFO - Missing data fillup for DGB/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,572 - freqtrade.data.converter - INFO - Missing data fillup for WPR/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,594 - freqtrade.data.converter - INFO - Missing data fillup for SUN/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,616 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,638 - freqtrade.data.converter - INFO - Missing data fillup for INJ/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,661 - freqtrade.data.converter - INFO - Missing data fillup for IOTX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,683 - freqtrade.data.converter - INFO - Missing data fillup for XEM/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,704 - freqtrade.data.converter - INFO - Missing data fillup for BZRX/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,728 - freqtrade.data.converter - INFO - Missing data fillup for STORJ/BTC: before: 999 - after: 1000
+2021-02-19 14:31:29,761 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2021-02-19 14:31:34,309 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:34,311 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:34,311 - freqtrade.freqtradebot - INFO - Executing Buy for REEF/BTC
+2021-02-19 14:31:34,311 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:34,592 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000074
+2021-02-19 14:31:34,592 - freqtrade.freqtradebot - WARNING - Can't open a new trade for REEF/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:35,115 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:35,116 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:35,116 - freqtrade.freqtradebot - INFO - Executing Buy for VET/BTC
+2021-02-19 14:31:35,116 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:35,918 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000102
+2021-02-19 14:31:35,919 - freqtrade.freqtradebot - WARNING - Can't open a new trade for VET/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:36,022 - freqtrade.freqtradebot - INFO - Pair MATIC/BTC is still locked until 2021-02-19 15:00:00.
+2021-02-19 14:31:36,553 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:36,555 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:36,555 - freqtrade.freqtradebot - INFO - Executing Buy for FTM/BTC
+2021-02-19 14:31:36,556 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:37,019 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000385
+2021-02-19 14:31:37,020 - freqtrade.freqtradebot - WARNING - Can't open a new trade for FTM/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:37,879 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:37,880 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:37,880 - freqtrade.freqtradebot - INFO - Executing Buy for LTO/BTC
+2021-02-19 14:31:37,881 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:38,165 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000736
+2021-02-19 14:31:38,165 - freqtrade.freqtradebot - WARNING - Can't open a new trade for LTO/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:38,705 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:38,708 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:38,708 - freqtrade.freqtradebot - INFO - Executing Buy for ZIL/BTC
+2021-02-19 14:31:38,708 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:39,167 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000256
+2021-02-19 14:31:39,168 - freqtrade.freqtradebot - WARNING - Can't open a new trade for ZIL/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:39,696 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:39,698 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:39,698 - freqtrade.freqtradebot - INFO - Executing Buy for RSR/BTC
+2021-02-19 14:31:39,698 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:40,167 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000113
+2021-02-19 14:31:40,168 - freqtrade.freqtradebot - WARNING - Can't open a new trade for RSR/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:40,703 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:40,705 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:40,706 - freqtrade.freqtradebot - INFO - Executing Buy for HBAR/BTC
+2021-02-19 14:31:40,706 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:41,168 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000275
+2021-02-19 14:31:41,168 - freqtrade.freqtradebot - WARNING - Can't open a new trade for HBAR/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:41,680 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:41,681 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:41,681 - freqtrade.freqtradebot - INFO - Executing Buy for CELR/BTC
+2021-02-19 14:31:41,681 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:42,172 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000039
+2021-02-19 14:31:42,173 - freqtrade.freqtradebot - WARNING - Can't open a new trade for CELR/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:47,683 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:47,685 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:47,685 - freqtrade.freqtradebot - INFO - Executing Buy for STPT/BTC
+2021-02-19 14:31:47,685 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:48,823 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000089
+2021-02-19 14:31:48,824 - freqtrade.freqtradebot - WARNING - Can't open a new trade for STPT/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:48,914 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 1272433706
+2021-02-19 14:31:48,915 - freqtrade.rpc.telegram - INFO - Executing handler: _status_table for chat_id: 1272433706
+2021-02-19 14:31:49,262 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:49,265 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:49,266 - freqtrade.freqtradebot - INFO - Executing Buy for SC/BTC
+2021-02-19 14:31:49,266 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:49,722 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000024
+2021-02-19 14:31:49,723 - freqtrade.freqtradebot - WARNING - Can't open a new trade for SC/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:50,869 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:50,871 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:50,871 - freqtrade.freqtradebot - INFO - Executing Buy for ROSE/BTC
+2021-02-19 14:31:50,871 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:51,155 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000256
+2021-02-19 14:31:51,155 - freqtrade.freqtradebot - WARNING - Can't open a new trade for ROSE/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:51,673 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:51,676 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:51,676 - freqtrade.freqtradebot - INFO - Executing Buy for NAV/BTC
+2021-02-19 14:31:51,676 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:52,157 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000999
+2021-02-19 14:31:52,158 - freqtrade.freqtradebot - WARNING - Can't open a new trade for NAV/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:52,694 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:52,696 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:52,697 - freqtrade.freqtradebot - INFO - Executing Buy for IOTX/BTC
+2021-02-19 14:31:52,697 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:53,155 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000047
+2021-02-19 14:31:53,156 - freqtrade.freqtradebot - WARNING - Can't open a new trade for IOTX/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:53,682 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:53,684 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:53,684 - freqtrade.freqtradebot - INFO - Executing Buy for RIF/BTC
+2021-02-19 14:31:53,684 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:54,160 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000624
+2021-02-19 14:31:54,160 - freqtrade.freqtradebot - WARNING - Can't open a new trade for RIF/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:54,677 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:54,679 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:54,679 - freqtrade.freqtradebot - INFO - Executing Buy for IRIS/BTC
+2021-02-19 14:31:54,679 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:55,157 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000270
+2021-02-19 14:31:55,157 - freqtrade.freqtradebot - WARNING - Can't open a new trade for IRIS/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:55,699 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:55,701 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:55,701 - freqtrade.freqtradebot - INFO - Executing Buy for BTS/BTC
+2021-02-19 14:31:55,701 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:56,160 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000121
+2021-02-19 14:31:56,160 - freqtrade.freqtradebot - WARNING - Can't open a new trade for BTS/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:56,677 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:56,679 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:56,679 - freqtrade.freqtradebot - INFO - Executing Buy for CTSI/BTC
+2021-02-19 14:31:56,679 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:57,161 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000416
+2021-02-19 14:31:57,161 - freqtrade.freqtradebot - WARNING - Can't open a new trade for CTSI/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:57,695 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:57,697 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:57,697 - freqtrade.freqtradebot - INFO - Executing Buy for CHR/BTC
+2021-02-19 14:31:57,697 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:58,162 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000120
+2021-02-19 14:31:58,163 - freqtrade.freqtradebot - WARNING - Can't open a new trade for CHR/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:58,687 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:58,689 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:58,689 - freqtrade.freqtradebot - INFO - Executing Buy for SYS/BTC
+2021-02-19 14:31:58,689 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:31:59,165 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000343
+2021-02-19 14:31:59,166 - freqtrade.freqtradebot - WARNING - Can't open a new trade for SYS/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:31:59,687 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:31:59,689 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:31:59,689 - freqtrade.freqtradebot - INFO - Executing Buy for VIB/BTC
+2021-02-19 14:31:59,689 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:32:00,164 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000135
+2021-02-19 14:32:00,165 - freqtrade.freqtradebot - WARNING - Can't open a new trade for VIB/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:32:00,441 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 1272433706
+2021-02-19 14:32:10,398 - freqtrade.exchange.common - WARNING - get_balances() returned exception: "Could not get balance due to RequestTimeout. Message: binance GET https://api.binance.com/api/v3/account?timestamp=1613745120381&recvWindow=5000&signature=6e2781cb658cef27ade336bd819ae19414e762ee7cd8e8917e5ca4e6fdc4e39c"
+2021-02-19 14:32:10,398 - freqtrade.exchange.common - WARNING - retrying get_balances() still for 4 times
+2021-02-19 14:32:10,966 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:32:10,968 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:32:10,968 - freqtrade.freqtradebot - INFO - Executing Buy for DATA/BTC
+2021-02-19 14:32:10,968 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:32:11,253 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000220
+2021-02-19 14:32:11,253 - freqtrade.freqtradebot - WARNING - Can't open a new trade for DATA/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:32:11,859 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:32:11,861 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:32:11,861 - freqtrade.freqtradebot - INFO - Executing Buy for FUN/BTC
+2021-02-19 14:32:11,861 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:32:12,254 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000065
+2021-02-19 14:32:12,255 - freqtrade.freqtradebot - WARNING - Can't open a new trade for FUN/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:32:12,789 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:32:12,792 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:32:12,792 - freqtrade.freqtradebot - INFO - Executing Buy for NKN/BTC
+2021-02-19 14:32:12,792 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:32:13,577 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000101
+2021-02-19 14:32:13,578 - freqtrade.freqtradebot - WARNING - Can't open a new trade for NKN/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:32:14,269 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:32:14,271 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:32:14,271 - freqtrade.freqtradebot - INFO - Executing Buy for STMX/BTC
+2021-02-19 14:32:14,272 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:32:14,879 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000020
+2021-02-19 14:32:14,880 - freqtrade.freqtradebot - WARNING - Can't open a new trade for STMX/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:32:15,542 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:32:15,544 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:32:15,544 - freqtrade.freqtradebot - INFO - Executing Buy for PERL/BTC
+2021-02-19 14:32:15,544 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:32:16,155 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000146
+2021-02-19 14:32:16,155 - freqtrade.freqtradebot - WARNING - Can't open a new trade for PERL/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:32:16,842 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:32:16,844 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:32:16,845 - freqtrade.freqtradebot - INFO - Executing Buy for CKB/BTC
+2021-02-19 14:32:16,845 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:32:17,129 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000018
+2021-02-19 14:32:17,130 - freqtrade.freqtradebot - WARNING - Can't open a new trade for CKB/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:32:17,651 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:32:17,654 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:32:17,654 - freqtrade.freqtradebot - INFO - Executing Buy for DLT/BTC
+2021-02-19 14:32:17,654 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
+2021-02-19 14:32:18,132 - freqtrade.freqtradebot - INFO - ...top 1 order book buy rate 0.00000262
+2021-02-19 14:32:18,132 - freqtrade.freqtradebot - WARNING - Can't open a new trade for DLT/BTC: stake amount is too small (0.00012 < 0.00012123416378735529)
+2021-02-19 14:32:18,990 - freqtrade.wallets - INFO - Wallets synced.
+2021-02-19 14:32:18,992 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.00012 ...
+2021-02-19 14:32:18,992 - freqtrade.freqtradebot - INFO - Executing Buy for AERGO/BTC
+2021-02-19 14:32:18,993 - freqtrade.freqtradebot - INFO - Getting price from order book Bid side.
